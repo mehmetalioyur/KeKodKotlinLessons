@@ -20,10 +20,11 @@ fun main(args: Array<String>) {
 val result: Int? = null
 fun plusWithResult() {
     result?.plus(1) // result null değil ise topla, null ise bir şey yapma
-    result!!.minus(1) // her türlü bu işlemi çalıştır. (Java böyle.)
+    result!!.minus(1) // Her türlü bu işlemi çalıştır. Null ise crash fırlat. (Java böyle)
 }
 
 fun getDirectNull() {
-    val nullVariable = null
+    val nullVariable = null // nothing
+    val nullInteger : Int? = null // Int?
 }
 
