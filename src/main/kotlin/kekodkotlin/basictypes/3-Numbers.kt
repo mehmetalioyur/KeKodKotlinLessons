@@ -44,6 +44,7 @@ package kekodkotlin.basictypes
  *  * Eğer number -128-127 (byte) aralığında nullable olsa bile  primitive tip gibi davranır. Bu aralıkta bütün farklı değişkenler aynı yere setlenir.
  *  * @see compareTwoNumbersValue
  *
+ * Kotlin'de kapalı(implicit) tip dönüşümü yoktur. çevirmek istediğimiz türe Örneğin : 10L.toInt() açık(explicit) olarak gibi çevirmemiz gerekir.
  *
  */
 

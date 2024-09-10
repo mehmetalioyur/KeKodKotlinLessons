@@ -23,7 +23,7 @@ package kekodkotlin.basictypes
  * var = "Değeri sonradan değiştirilebilir", değişken "Variable" değişken kelimesinin kısaltmasıdır.
  *
  * val değişkenlere genelde immutable denir. Ancak bu yanlış bir ifadedir. Çünkü;
- * immutable ise bir değişkenin / nesnenin durumu asla ilk değerden farklı olamaz demek.
+ * immutable ise bir değişkenin / nesnenin durumu asla ilk değerden farklı olamaz demek. (getter'ında farklı değerler döndürebilir)
  * read only demek ilk değer atamasından sonra tekrar değer atanamaz demek. val değişkenler read only demektir.
  *
  * @sample calculateAvailableSpace -> Immutable olsaydı, sonuçların aynı olması gerekirdi.
