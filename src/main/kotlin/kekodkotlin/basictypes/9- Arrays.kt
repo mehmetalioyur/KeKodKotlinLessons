@@ -120,7 +120,7 @@ fun addNewElementInArray() {
 
 fun higherOrderArrayDefinition() {
     val piTimesArray = Array(5) {
-        // pseudo code
+        // pseudo code : Pek bir anlamı olmayan kod demek
         // pseudo code
         // pseudo code
         3.14 * it
